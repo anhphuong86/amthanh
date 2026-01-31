@@ -1,0 +1,33 @@
+{
+  "name": "zavira-receptionist",
+  "version": "1.0.0",
+  "description": "A LiveKit voice AI receptionist agent",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx --watch src/agent.ts",
+    "start": "node dist/main.js",
+    "download-files": "livekit-agents download-files",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "dependencies": {
+    "@livekit/agents": "^0.11.0",
+    "@livekit/agents-plugin-silero": "^0.7.0",
+    "@livekit/agents-plugin-livekit": "^0.9.0",
+    "@livekit/agents-plugin-openai": "^0.9.0",
+    "@livekit/agents-plugin-cartesia": "^0.4.0",
+    "@livekit/agents-plugin-assemblyai": "^0.7.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}

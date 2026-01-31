@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Kể Chuyện Đa Nhân Cách",
+  "description": "Hệ thống kể chuyện tương tác với 1000 nhân cách AI, bao gồm Top 10 MC nổi tiếng Việt Nam.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
